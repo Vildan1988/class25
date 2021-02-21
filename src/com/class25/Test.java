@@ -25,14 +25,15 @@ public class Test {
 		System.out.println("_______Creating an object of a Developer class________");
 		
 		Devoloper dev=new Devoloper();
-		dev.salary=130000;
+		dev.salary=130000;// accessing default variable within same package
 		dev.work();
 		dev.getPaid();
 		dev.code();
 		dev.artifacts="Sprint Backlog";
 		dev.ceremonies="sprint Demo, planing";
 		dev.attendScrumMeetings();
-		
+		dev.employeeId=101;
+		//dev.employeeSsn= not accessing because it is private
 		
 		
 	}
