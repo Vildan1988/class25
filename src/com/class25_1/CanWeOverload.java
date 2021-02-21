@@ -12,6 +12,7 @@ public class CanWeOverload {
 	}
 	
 	//can we overload a main method ?interview question cevap YES
+	//can we overload a static method?-Yes
 	public static void main(String str,String[] args)
 	 {
 		System.out.println("I am a main method with string array");
@@ -22,6 +23,7 @@ public class CanWeOverload {
 	}
 	 
 	 public static void main(String[] args) {
+		 
 		System.out.println("I am a main method with 2 parameters");
 		CanWeOverload.main("String");
 		String[] array= {"A","B"};
